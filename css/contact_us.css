@@ -1,0 +1,124 @@
+
+.contact-banner{
+    position: relative;
+    width: 100%;
+    background-image: url('../images/contact.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 29vw;
+}
+.form h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 45px;
+    color: #1e2a5d;
+    margin: 2vw 0 1.3vw;
+}
+form{
+    border: 1px solid #1e2a5d;
+    padding: 4vw 4vw 2vw 4vw;
+    margin: 0vw 4vw;
+}
+form #form-field{
+    border: none;
+    border-bottom: 1px solid #1e2a5d !important;
+}
+.error{
+    color: red;
+    margin-bottom: 2.5vw;
+}
+textarea::placeholder{
+    padding-top: 5.3vw;
+}
+.submit-btn{
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: #1e2a5d !important;
+}
+
+.left-contact-block, .right-contact-block{
+    background-color: #EAEDED;
+}
+.right-contact-block .support{
+    padding: 5vw 5vw 2.5vw;
+}
+.right-contact-block .address{
+    padding: 2.5vw 5vw;
+}
+.address p{
+    line-height: 30px;
+    white-space: pre-line;
+    text-align: center;
+}
+.enquiry{
+    border: 1px solid #7F8C8D;
+    text-align: center;
+    margin: 2vw;
+}
+.enquiry-head{
+    background-color: #85C1E9;
+    border-bottom: 1px solid #7F8C8D;
+}
+.enquiry-head h4{
+    margin: 0vw;
+    padding: 0.6vw;
+    color: white;
+    font-weight: 500;
+}
+.enquiry-content img{
+    width:7vw;
+    height: 7vw;
+}
+.enquiry-content p{
+    white-space: pre-line;
+}
+
+@media only screen and (max-width: 575.98px), (min-width: 576px) and (max-width: 767.98px), (min-width: 768px) and (max-width: 991.98px), (min-width: 992px) and (max-width: 1199.98px), (min-width: 1200px){
+    h4{ font-size: 16px !important;}
+    .over-banner img{ width: 12vw; height: 12vw;}
+    textarea{ height: 10vw !important;}
+    
+}
+
+@media only screen and (max-width: 575.98px){
+    h1{ font-size: 17px !important;}
+    p{ font-size: 8px !important; line-height: 10px !important;}
+    .banner{ height: 25vw}
+    .over-banner{ background-size: 39% !important; }
+    .over-banner p{ padding-right: 40vw; padding-top: 11vw;}
+    form{ padding: 2vw 7vw !important; margin: 3vw 6vw;}
+    ::placeholder{ font-size: 9px !important; }
+    textarea::placeholder{ padding-top: 3vw;}
+    .right-contact-block img{ width: 15vw; height: 15vw;}
+    .submit-btn{ font-size: 10px !important;}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px){
+    .banner{ height: 23vw}
+    h1{ font-size: 22px !important;}
+    p{ font-size: 11px !important; line-height: 15px !important;}
+    .over-banner p{ padding-right: 31vw!important; padding-top: 11vw!important;}
+    form{ padding: 2vw !important; margin: 3vw 6vw;}
+    ::placeholder{ font-size: 9px !important; }
+    .submit-btn{ font-size: 11px !important;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px){
+    .banner{ height:20vw }
+    .over-banner h1{ font-size: 24px !important; padding-top: 4vw;}
+    .over-banner p{ padding-top: 13vw !important;}
+    p{ font-size: 12px !important; line-height: 15px !important;}
+    .over-banner p{ padding-right: 31vw; padding-top: 11vw;}
+    form{ padding: 2vw !important; margin: 3vw;}
+    ::placeholder{ font-size: 11px !important; }
+    .submit-btn{ font-size: 11px !important;}
+}
+@media only screen and (min-width: 992px) and (max-width: 1199.98px){
+    .over-banner h1{ font-size: 32px !important; padding-top: 4vw;}
+    .over-banner p{ padding-top: 12vw !important;}
+    p{ font-size: 15px !important; line-height: 20px !important;}
+    ::placeholder{ font-size: 13px !important; }
+    .submit-btn{ font-size: 14px !important;}
+}

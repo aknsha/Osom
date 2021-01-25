@@ -1,0 +1,55 @@
+.about-banner{
+    position: relative;
+    width: 100%;
+    background-image: url('../images/about.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 32vw;
+}
+.privacy-banner{
+    position: relative;
+    width: 100%;
+    background-image: url('../images/privacy.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 32vw;
+}
+.refund-banner{
+    position: relative;
+    width: 100%;
+    background-image: url('../images/refund.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 32vw;
+}
+.responsible-banner{
+    position: relative;
+    width: 100%;
+    background-image: url('../images/refund.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 32vw;
+}
+.content{
+    padding: 35px 0px;
+}
+.content p{
+    white-space: pre-line;
+    font-size: 16px;
+    line-height: 30px;
+}
+ 
+@media only screen and (max-width: 575.98px){
+    .about-banner{ height: 50vw; background-position-x: -25px;}
+    .privacy-banner{ height: 50vw; background-position-x: -25px;}
+    .refund-banner{ height: 50vw; background-position-x: -25px;}
+    .content{ padding: 20px 0px 10px !important;}
+    p{ line-height: 25px !important;}
+} 
+@media only screen and (min-width: 575.98px) and (max-width: 767.98px){
+
+}
